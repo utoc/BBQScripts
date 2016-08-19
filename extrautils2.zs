@@ -39,6 +39,12 @@ recipes.remove(<extrautils2:AngelRing:3>);
 recipes.remove(<extrautils2:AngelRing:4>);
 recipes.remove(<extrautils2:AngelRing:5>);
 
+recipes.addShapeless(<extrautils2:AngelRing:1>, [<minecraft:feather>, <extrautils2:AngelRing:*>, <minecraft:feather>]);
+recipes.addShapeless(<extrautils2:AngelRing:2>, [<ore:dyePurple>, <extrautils2:AngelRing:*>, <ore:dyePink>]);
+recipes.addShapeless(<extrautils2:AngelRing:3>, [<minecraft:leather>, <extrautils2:AngelRing:*>, <minecraft:leather>]);
+recipes.addShapeless(<extrautils2:AngelRing:4>, [<ore:nuggetGold>, <extrautils2:AngelRing:*>, <ore:nuggetGold>]);
+recipes.addShapeless(<extrautils2:AngelRing:5>, [<minecraft:coal>, <extrautils2:AngelRing:*>, <minecraft:coal:1>]);
+
 recipes.remove(<extrautils2:PassiveGenerator:0>);
 recipes.remove(<extrautils2:PassiveGenerator:1>);
 recipes.remove(<extrautils2:PassiveGenerator:2>);
