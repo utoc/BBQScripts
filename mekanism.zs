@@ -67,6 +67,7 @@ val cet1 = <enderio:itemPowerConduit:0>;
 val sgla = <mekanism:BasicBlock:10>;
 
 recipes.remove(<mekanismgenerators:Generator:0>);
+#recipes.remove(<mekanism:MachineBlock:4>);
 
 recipes.remove(<mekanism:MachineBlock:15>);
 recipes.addShaped(<mekanism:MachineBlock:15>, [[iron, con2, iron], [iron, pist, iron], [iron, iron, iron]]);

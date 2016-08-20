@@ -103,13 +103,13 @@ var umi1 = <actuallyadditions:itemDrillUpgradeThreeByThree>;
 var umi2 = <actuallyadditions:itemDrillUpgradeFiveByFive>;
 
 #Books
-var book = <minecraft:enchanted_book>;
-var f1bk = book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]});
-var f3bk = book.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]});
-var e1bk = book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 32 as short}]});
-var e2bk = book.withTag({StoredEnchantments: [{lvl: 3 as short, id: 32 as short}]});
-var e3bk = book.withTag({StoredEnchantments: [{lvl: 5 as short, id: 32 as short}]});
-var stbk = book.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]});
+
+var f1bk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 1 as short, id: 35 as short}]});
+var f3bk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 3 as short, id: 35 as short}]});
+var e1bk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 1 as short, id: 32 as short}]});
+var e2bk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 3 as short, id: 32 as short}]});
+var e3bk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 5 as short, id: 32 as short}]});
+var stbk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 1 as short, id: 33 as short}]});
 var m3bk = <mekanism:AtomicDisassembler>;
 var m5bk = <techreborn:diamondjackhammer>;
 
@@ -186,12 +186,12 @@ odye.add(dyeb);
 	recipes.remove(ufo2);
 	recipes.remove(core);
 
-	recipes.addShaped(ufo1, [[enor, null, enor], [null, f1bk, null], [enor, null, enor]]);
-	recipes.addShaped(ufo2, [[enor, null, enor], [null, f3bk, null], [enor, null, enor]]);
-	recipes.addShaped(ust1, [[enor, null, enor], [null, stbk, null], [enor, null, enor]]);
+	recipes.addShaped(ufo1, [[emer, null, emer], [null, f1bk, null], [emer, null, emer]]);
+	recipes.addShaped(ufo2, [[null, emer, null], [emer, f3bk, emer], [null, emer, null]]);
+	recipes.addShaped(ust1, [[dimm, null, dimm], [null, stbk, null], [dimm, null, dimm]]);
 	recipes.addShaped(uef1, [[enor, null, enor], [null, e1bk, null], [enor, null, enor]]);
-	recipes.addShaped(uef2, [[enor, null, enor], [null, e2bk, null], [enor, null, enor]]);
-	recipes.addShaped(uef3, [[enor, null, enor], [null, e3bk, null], [enor, null, enor]]);
+	recipes.addShaped(uef2, [[null, enor, null], [enor, e2bk, enor], [null, enor, null]]);
+	recipes.addShaped(uef3, [[enor, enor, enor], [enor, e3bk, enor], [enor, enor, enor]]);
 	recipes.addShaped(umi1, [[enor, null, enor], [null, m3bk, null], [enor, null, enor]]);
 	recipes.addShaped(umi2, [[enor, null, enor], [null, m5bk, null], [enor, null, enor]]);
 	recipes.addShaped(core, [[acoi, chip, acoi], [diam, cont, diam], [acoi, chip, acoi]]);
