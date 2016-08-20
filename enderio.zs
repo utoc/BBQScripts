@@ -66,6 +66,9 @@ recipes.remove(coni);
 recipes.remove(binc);
 recipes.remove(chas);
 
+recipes.remove(<enderio:itemConduitProbe>);
+recipes.addShaped(<enderio:itemConduitProbe>, [[ing1, cet1, ing1], [<ore:paneGlass>, <minecraft:comparator>, <ore:paneGlass>], [<ore:itemSilicon>, ing4, <ore:itemSilicon>]]);
+
 recipes.addShaped(cet1 * 2, [[b, cab1, b], [cab1, b, cab1], [b, cab1, b]]);
 recipes.addShaped(cet2 * 6, [[b, chi2, b], [cet1, ing2, cet1], [b, chi2, b]]);
 recipes.addShaped(cet3 * 6, [[b, chi3, b], [cet2, ing3, cet2], [b, chi3, b]]);

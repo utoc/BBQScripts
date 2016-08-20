@@ -99,11 +99,11 @@ recipes.addShaped(<mekanismgenerators:ReactorGlass> * 2, [[null, fram, null], [f
 recipes.remove(<mekanism:MultipartTransmitter:0>);
 recipes.addShaped(<mekanism:MultipartTransmitter:0> * 4, [[ingo, cond, ingo], [cet1, cap1, cet1], [ingo, cond, ingo]]);
 recipes.remove(<mekanism:MultipartTransmitter:1>);
-recipes.addShaped(<mekanism:MultipartTransmitter:1> * 6, [[cabb, cabb, cabb], [chi1, enra, chi1], [cabb, cabb, caba]]);
+recipes.addShaped(<mekanism:MultipartTransmitter:1> * 6, [[cabb, cabb, cabb], [chi1, enra, chi1], [cabb, cabb, cabb]]);
 recipes.remove(<mekanism:MultipartTransmitter:2>);
 recipes.addShaped(<mekanism:MultipartTransmitter:2> * 6, [[caba, caba, caba], [chi2, reia, chi2], [caba, caba, caba]]);
 recipes.remove(<mekanism:MultipartTransmitter:3>);
-recipes.addShaped(<mekanism:MultipartTransmitter:3> * 6, [[cabe, cabe, cabe], [chi3, aall, chi3], [caba, caba, caba]]);
+recipes.addShaped(<mekanism:MultipartTransmitter:3> * 6, [[cabe, cabe, cabe], [chi3, aall, chi3], [cabe, cabe, cabe]]);
 
 recipes.remove(<mekanism:MultipartTransmitter:4>);
 recipes.addShaped(<mekanism:MultipartTransmitter:4> * 2, [[stee, buck, stee]]);
