@@ -60,6 +60,7 @@ recipes.remove(<extrautils2:PlayerChest>);
 recipes.remove(<extrautils2:Ingredients:0>);
 recipes.remove(<extrautils2:Machine:*>);
 
+recipes.addShapeless(<extrautils2:SoundMuffler>, [<mekanism:MufflingUpgrade>]);
 
 #mods.jei.JEI.hide(<extrautils2:Drum>);
 

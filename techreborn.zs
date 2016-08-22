@@ -132,8 +132,8 @@ val cgen = <rftools:coalgenerator>;
 	recipes.addShapeless(elplate, [ham, elec, elec, elec]);
 	recipes.addShapeless(niplate, [ham, nick, nick, nick]);
 	recipes.addShapeless(chplate, [ham, chro, chro, chro]);
-	mods.techreborn.implosionCompressor.addRecipe(tgplate, <techreborn:dust:15> *4, <techreborn:ingot:15>, <minecraft:tnt> *8, 20, 30);
-	mods.techreborn.implosionCompressor.addRecipe(stplate, <techreborn:dust:15> *4, stee, <minecraft:tnt> *8, 20, 30);
+	mods.techreborn.implosionCompressor.addRecipe(tgplate, <techreborn:dust:15> *4, <techreborn:ingot:15>, <minecraft:tnt> *4, 20, 30);
+	mods.techreborn.implosionCompressor.addRecipe(stplate, <techreborn:dust:15> *4, stee, <minecraft:tnt> *4, 20, 30);
 	
 recipes.remove(<techreborn:bronzeSpade>);
 recipes.remove(<techreborn:bronzePickaxe>);

@@ -69,6 +69,9 @@ val sgla = <mekanism:BasicBlock:10>;
 recipes.remove(<mekanismgenerators:Generator:0>);
 #recipes.remove(<mekanism:MachineBlock:4>);
 
+recipes.remove(<mekanism:MufflingUpgrade>);
+recipes.addShapeless(<mekanism:MufflingUpgrade>, [<extrautils2:SoundMuffler>]);
+
 recipes.remove(<mekanism:MachineBlock:15>);
 recipes.addShaped(<mekanism:MachineBlock:15>, [[iron, con2, iron], [iron, pist, iron], [iron, iron, iron]]);
 
@@ -88,7 +91,7 @@ recipes.remove(<mekanismgenerators:Generator:1>);
 recipes.addShaped(<mekanismgenerators:Generator:1>, [[phot, phot, phot], [enra, iron, enra], [osmd, tabl, osmd]]);
 
 recipes.remove(<mekanismgenerators:Generator:5>);
-recipes.addShaped(<mekanismgenerators:Generator:5>, [[sol2, null, sol2], [reia, tabl, reia], [ingo, ingo, ingo]]);
+recipes.addShaped(<mekanismgenerators:Generator:5>, [[null, sol2, null], [reia, tabl, reia], [ingo, ingo, ingo]]);
 
 recipes.remove(<mekanismgenerators:Generator:10>);
 recipes.addShaped(<mekanismgenerators:Generator:10> * 2, [[null, step, null], [step, ingo, step], [null, step, null]]);

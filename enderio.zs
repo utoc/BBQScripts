@@ -85,10 +85,10 @@ recipes.addShaped(<enderio:blockStirlingGenerator>, [[lead, casi, lead], [tinp, 
 
 recipes.remove(<enderio:blockSolarPanel:0>);
 recipes.remove(<enderio:blockSolarPanel:1>);
-recipes.addShaped(<enderio:blockSolarPanel:1>, [[sol1, null, sol1], [ing3, enli, ing3], [cap2, sens, cap2]]);
+recipes.addShaped(<enderio:blockSolarPanel:1>, [[null, sol1, null], [ing1, enli, ing1], [cap1, sens, cap1]]);
 
 recipes.remove(<enderio:blockSolarPanel:2>);
-recipes.addShaped(<enderio:blockSolarPanel:2>, [[sol3, null, sol3], [soul, dark, soul], [cap3, endc, cap3]]);
+recipes.addShaped(<enderio:blockSolarPanel:2>, [[null, sol3, null], [ing3, dark, ing3], [cap3, endc, cap3]]);
 
 mods.techreborn.alloySmelter.addRecipe(<enderio:itemAlloy:0>, ste1, sili, 120, 32);
 mods.techreborn.alloySmelter.addRecipe(<enderio:itemAlloy:0>, ste2, sili, 120, 32);
