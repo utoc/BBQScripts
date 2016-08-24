@@ -14,6 +14,7 @@ val lapi = <minecraft:dye:4>;
 val quar = <minecraft:quartz>;
 val quab = <minecraft:quartz_block>;
 val carb = <techreborn:part:34>;
+val stee = <techreborn:plates:28>;
 
 recipes.remove(asse);
 #recipes.remove(cell);
@@ -21,8 +22,8 @@ recipes.remove(cele);
 recipes.remove(core);
 
 recipes.addShaped(asse, [[null, null, alab], [null, obsi, null], [obsi, null, null]]);
-recipes.addShaped(core, [[glas, reds, glas], [iron, lase, iron], [glas, reds, glas]]);
-recipes.addShaped(cele, [[glas, glas, glas], [albs, celi, albs], [reds, iron, reds]]);
+recipes.addShaped(core, [[glas, reds, glas], [stee, lase, stee], [glas, reds, glas]]);
+recipes.addShaped(cele, [[glas, glas, glas], [stee, celi, stee], [reds, iron, reds]]);
 
 recipes.remove(<environmentaltech:photovoltaic_cell>);
 recipes.addShaped(<environmentaltech:photovoltaic_cell>, [[carb, lapi, carb], [lapi, quar, lapi], [null, lapi, null]]);

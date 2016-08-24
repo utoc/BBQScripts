@@ -31,6 +31,8 @@ var reds = <ore:dustRedstone>;
 var pipe = <extrautils2:pipe:0>;
 var ches = <ore:chest>;
 var buck = <minecraft:bucket>;
+val gene = <techreborn:ironfurnace>;
+val egge = <techreborn:dragoneggenergsiphon>;
 
 recipes.remove(<extrautils2:AngelRing>);
 recipes.remove(<extrautils2:AngelRing:1>);
@@ -89,19 +91,19 @@ recipes.addShaped(pipe *16, [[irplate, cpplate, irplate],[hard, redb, hard],[irp
 
 #Generators
 recipes.addShaped(<extrautils2:PassiveGenerator:0>, [[null, null, null], [sola, null, sola], [burn, burn, burn]]);
-recipes.addShaped(<extrautils2:PassiveGenerator:1>, [[luna, luna, luna], [sola, luna, sola], [burn, burn, burn]]);
+recipes.addShaped(<extrautils2:PassiveGenerator:1>, [[luna, luna, luna], [sola, null, sola], [burn, burn, burn]]);
 
 #lava
-#recipes.addShaped(<extrautils2:PassiveGenerator:2>, []);
+recipes.addShaped(<extrautils2:PassiveGenerator:2>, [[null, null, null], [buck, gene, buck], [burn, burn, burn]]);
 #water
 #recipes.addShaped(<extrautils2:PassiveGenerator:3>, []);
 #wind
 recipes.addShaped(<extrautils2:PassiveGenerator:4>, [[wind, coil, wind], [burn, burn, burn]]);
 #fire
-#recipes.addShaped(<extrautils2:PassiveGenerator:5>, []);
+#recipes.addShaped(<extrautils2:PassiveGenerator:5>, );
 #creative
 #recipes.addShaped(<extrautils2:PassiveGenerator:6>, []);
 #manual mill
 recipes.addShaped(<extrautils2:PassiveGenerator:7>, [[base, acoi, base], [acoi, coil, acoi], [base, acoi, base]]);
 #dragon egg
-#recipes.addShaped(<extrautils2:PassiveGenerator:8>, []);
+recipes.addShaped(<extrautils2:PassiveGenerator:8>, [[null, null, null], [egge, null, egge], [burn, burn, burn]]);
