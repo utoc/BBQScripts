@@ -30,7 +30,7 @@ var cpplate = <techreborn:plates:20>;
 var elplate = <techreborn:plates:21>;
 var inplate = <techreborn:plates:22>;
 var idplate = <techreborn:plates:23>;
-var leplate = <techreborn:plates:24>;
+var ldplate = <techreborn:plates:24>;
 var niplate = <techreborn:plates:25>;
 var plplate = <techreborn:plates:26>;
 var siplate = <techreborn:plates:27>;
@@ -86,7 +86,7 @@ val cgen = <rftools:coalgenerator>;
 	recipes.remove(<techreborn:semifluidgenerator>);
 
 	recipes.remove(<techreborn:ironfurnace>);
-	recipes.addShaped(<techreborn:ironfurnace>, [[irplate, irplate, irplate], [irplate, furn, irplate], [irplate, irplate, irplate]]);
+	recipes.addShaped(<techreborn:ironfurnace>, [[irplate, ldplate, irplate], [ldplate, furn, ldplate], [ldplate, irplate, ldplate]]);
 	
 	recipes.remove(<techreborn:techreborn.generator>);
 	recipes.addShaped(<techreborn:techreborn.generator>, [[elplate, elplate, elplate], [elplate, casi, elplate], [riplate, cgen, riplate]]);
@@ -123,7 +123,7 @@ val cgen = <rftools:coalgenerator>;
 	recipes.addShapeless(goplate, [ham, gold, gold, gold]);
 	recipes.addShapeless(cpplate, [ham, copr, copr, copr]);
 	recipes.addShapeless(tnplate, [ham, tin, tin, tin]);
-	recipes.addShapeless(leplate, [ham, lead, lead, lead]);
+	recipes.addShapeless(ldplate, [ham, lead, lead, lead]);
 	recipes.addShapeless(bzplate, [ham, bron, bron, bron]);
 	recipes.addShapeless(alplate, [ham, alum, alum, alum]);
 	recipes.addShapeless(siplate, [ham, silv, silv, silv]);

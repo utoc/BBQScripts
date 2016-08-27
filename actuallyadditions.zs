@@ -79,7 +79,7 @@ var lgen = <actuallyadditions:blockLeafGenerator>;
 var empo = <actuallyadditions:blockEmpowerer>;
 var dply = <actuallyadditions:blockDisplayStand>;
 var coll = <actuallyadditions:blockHeatCollector>;
-
+var ldplate = <techreborn:plates:24>;
 val nul1 = <usefulnullifiers:OverflowNullifierItem>;
 val leat = <ore:leather>;
 val stri = <ore:string>;
@@ -126,7 +126,7 @@ odye.add(dyeb);
 #Recipe Changes
 	#CASING
 	recipes.remove(casi);
-	recipes.addShaped(casi, [[irplate, stik, irplate], [stik, bqtz, stik], [irplate, stik, irplate]]);
+	recipes.addShaped(casi, [[irplate, ldplate, irplate], [stik, bqtz, stik], [irplate, ldplate, irplate]]);
 	
 	#PHANTOM FACE
 	recipes.remove(phaf);

@@ -174,6 +174,6 @@ var baseMachine = [<mekanism:MachineBlock:10>, <mekanism:MachineBlock>, <mekanis
 
 for i, recipeType in recipeData {
 	recipes.addShaped(factories[0].withTag(recipeType), [[con0, con1, con0], [cap1, baseMachine[i], cap1], [stee, con1, stee]]);
-	recipes.addShaped(factories[1].withTag(recipeType), [[con1, con2, con1], [cap2, factories[0].withTag(recipeType), cap2], [este, con2, este]]);
-	recipes.addShaped(factories[2].withTag(recipeType), [[con2, con3, con2], [cap3, factories[1].withTag(recipeType), cap3], [enea, con3, enea]]);
+	recipes.addShaped(factories[1].withTag(recipeType), [[con1, con2, con1], [cap2, factories[0].onlyWithTag(recipeType), cap2], [este, con2, este]]);
+	recipes.addShaped(factories[2].withTag(recipeType), [[con2, con3, con2], [cap3, factories[1].onlyWithTag(recipeType), cap3], [enea, con3, enea]]);
 }

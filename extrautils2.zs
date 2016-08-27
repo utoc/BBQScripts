@@ -87,7 +87,7 @@ recipes.addShaped(norf *2, [[burn, perl, burn], [nodf, diam, nodf], [burn, perl,
 
 #Pipe
 recipes.remove(pipe);
-recipes.addShaped(pipe *16, [[irplate, cpplate, irplate],[hard, redb, hard],[irplate, cpplate, irplate]]);
+recipes.addShaped(pipe *16, [[ldplate, cpplate, ldplate],[hard, redb, hard],[ldplate, cpplate, ldplate]]);
 
 #Generators
 recipes.addShaped(<extrautils2:PassiveGenerator:0>, [[null, null, null], [sola, null, sola], [burn, burn, burn]]);
