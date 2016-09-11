@@ -76,7 +76,7 @@ recipes.addShaped(cet3 * 6, [[b, chi3, b], [cet2, ing3, cet2], [b, chi3, b]]);
 recipes.addShaped(cap1 * 2, [[null, ing4, null], [ing4, tub1, ing4], [null, ing4, null]]);
 recipes.addShaped(cap2, [[null, ing2, null], [cap1, tub2, cap1], [null, ing2, null]]);
 recipes.addShaped(cap3, [[null, ing3, null], [cap2, tub3, cap2], [null, ing3, null]]);
-recipes.addShaped(coni* 4, [[bind, ing6, bind], [ing6, cap1, ing6], [bind, ing6, bind]]);
+recipes.addShaped(coni* 4, [[bind, ing6, bind], [basl, cap1, basl], [bind, ing6, bind]]);
 recipes.addShaped(binc * 2, [[sawd, clay, sawd], [rubb, slim, rubb], [sawd, clay, sawd]]);
 recipes.addShaped(chas, [[bars, stee, bars], [stee, mcha, stee], [bars, stee, bars]]);
 
