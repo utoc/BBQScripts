@@ -6,6 +6,7 @@ val tabl = <mekanism:EnergyTablet>;
 val enra = <mekanism:EnrichedAlloy>;
 val reia = <mekanism:ReinforcedAlloy>;
 val aall = <mekanism:AtomicAlloy>;
+val conb = <techreborn:part:29>;
 val cona = <techreborn:part:30>;
 val rubb = <techreborn:part:32>;
 val bloc = <techreborn:techreborn.machineFrame:1>;
@@ -127,7 +128,7 @@ recipes.remove(<mekanism:MultipartTransmitter:11>);
 recipes.addShaped(<mekanism:MultipartTransmitter:11> * 4, [[null, tube, null], [tube, aall, tube], [null, tube, null]]);
 
 recipes.remove(<mekanism:MultipartTransmitter:12>);
-recipes.addShaped(<mekanism:MultipartTransmitter:12> * 2, [[stee, cona, stee]]);
+recipes.addShaped(<mekanism:MultipartTransmitter:12> * 2, [[stee, conb, stee]]);
 recipes.remove(<mekanism:MultipartTransmitter:13>);
 recipes.addShaped(<mekanism:MultipartTransmitter:13> * 4, [[null, logb, null], [logb, enra, logb], [null, logb, null]]);
 recipes.remove(<mekanism:MultipartTransmitter:14>);
