@@ -50,6 +50,8 @@ recipes.addShaped(slab, [[tub6, null, tub6], [ing1, ctrl, ing1], [ston, ston, st
 recipes.addShaped(card, [[null, core, null], [dril, cona, dril], [ing2, core, ing2]]);
 recipes.addShapeless(<rftools:shape_card:3>, [card, ust1]);
 recipes.addShapeless(<rftools:shape_card:4>, [card, ufo2]);
+recipes.addShapeless(<rftools:shape_card:6>, [ust1, <rftools:shape_card:5>]);
+recipes.addShapeless(<rftools:shape_card:7>, [ufo2, <rftools:shape_card:5>]);
 recipes.addShaped(<rftools:environmental_controller>, [[null, beac, null], [beac, case, beac], [null, beac, null]]);
 recipes.addShaped(<rftools:endergenic>, [[ctre, pear, ctre], [pear, dcas, pear], [ctre, pear, ctre]]);
 recipes.addShaped(<rftools:coalgenerator>, [[ctrl, coal, ctrl], [ing2, coal, ing2], [ing2, null, ing2]]);
