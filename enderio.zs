@@ -96,6 +96,9 @@ mods.techreborn.alloySmelter.addRecipe(<enderio:itemAlloy:3>, reds, sili, 120, 3
 mods.techreborn.alloySmelter.addRecipe(<enderio:itemAlloy:4>, iron, reds, 120, 32);
 mods.techreborn.alloySmelter.addRecipe(<enderio:itemAlloy:5>, iron, pear, 120, 32);
 
-
-
-
+val glas = <ore:blockGlass>;
+val glac = <ore:blockGlassColorless>;
+glas.remove(<enderio:blockFusedQuartz:1>);
+glas.remove(<enderio:blockFusedQuartz_fusedGlass:*>);
+glac.remove(<enderio:blockFusedQuartz:1>);
+glac.remove(<enderio:blockFusedQuartz_fusedGlass:*>);
