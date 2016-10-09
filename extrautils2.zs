@@ -41,6 +41,7 @@ recipes.remove(<extrautils2:AngelRing:3>);
 recipes.remove(<extrautils2:AngelRing:4>);
 recipes.remove(<extrautils2:AngelRing:5>);
 
+recipes.addShapeless(<extrautils2:AngelRing>, [<extrautils2:AngelRing:*>]);
 recipes.addShapeless(<extrautils2:AngelRing:1>, [<minecraft:feather>, <extrautils2:AngelRing:*>, <minecraft:feather>]);
 recipes.addShapeless(<extrautils2:AngelRing:2>, [<ore:dyePurple>, <extrautils2:AngelRing:*>, <ore:dyePink>]);
 recipes.addShapeless(<extrautils2:AngelRing:3>, [<minecraft:leather>, <extrautils2:AngelRing:*>, <minecraft:leather>]);
@@ -64,13 +65,11 @@ recipes.remove(<extrautils2:Machine:*>);
 
 recipes.addShapeless(<extrautils2:SoundMuffler>, [<mekanism:MufflingUpgrade>]);
 
-#mods.jei.JEI.hide(<extrautils2:Drum>);
-
-
+mods.jei.JEI.hide(<extrautils2:Drum:*>);
 
 #ChunkLoader
 recipes.remove(<extrautils2:ChunkLoader>);
-recipes.addShaped(<extrautils2:ChunkLoader>, [[ende, tube, ende], [tube, evil, tube], [ende, tube, ende]]);
+#recipes.addShaped(<extrautils2:ChunkLoader>, [[ende, tube, ende], [tube, evil, tube], [ende, tube, ende]]);
 
 #AngelRing
 recipes.addShaped(<extrautils2:AngelRing>, [[null, tiar, null], [flig, sigi, ffal], [elyt, null, jetp]]);
