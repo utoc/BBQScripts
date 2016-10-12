@@ -73,6 +73,12 @@ var zinc = <ore:ingotZinc>;
 var lapi = <ore:gemLapis>;
 val cgen = <rftools:coalgenerator>;
 
+mods.jei.JEI.hide(<techreborn:plates:11>);
+mods.jei.JEI.hide(<techreborn:plates:12>);
+mods.jei.JEI.hide(<techreborn:plates:13>);
+mods.jei.JEI.hide(<techreborn:plates:14>);
+mods.jei.JEI.hide(<techreborn:plates:15>);
+
 #RECIPE FIXES
 	#Carbon Fiber
 	recipes.remove(<techreborn:part:35>);

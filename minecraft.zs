@@ -36,3 +36,15 @@ recipes.remove(<minecraft:diamond_leggings>);
 recipes.addShaped(<minecraft:diamond_leggings>, [[diam, <minecraft:iron_leggings>, diam], [diam, null, diam], [diam, null, diam]]);
 recipes.remove(<minecraft:diamond_boots>);
 recipes.addShaped(<minecraft:diamond_boots>, [[diam, null, diam], [diam, <minecraft:iron_boots>, diam]]);
+
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 648, <minecraft:golden_chestplate>, 500, <minecraft:golden_chestplate>);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 360, <minecraft:golden_helmet>, 500, <minecraft:golden_helmet>);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 504, <minecraft:golden_leggings>, 500, <minecraft:golden_leggings>);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 288, <minecraft:golden_boots>, 500, <minecraft:golden_boots>);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_sword>, 500, <minecraft:golden_sword>);
+
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 648, <minecraft:iron_chestplate>, 500, <minecraft:iron_chestplate>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 360, <minecraft:iron_helmet>, 500, <minecraft:iron_helmet>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 504, <minecraft:iron_leggings>, 500, <minecraft:iron_leggings>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 288, <minecraft:iron_boots>, 500, <minecraft:iron_boots>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:iron_sword>, 500, <minecraft:iron_sword>);

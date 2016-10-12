@@ -1,7 +1,6 @@
-val emer = <botania:manaResource:2>;
-val stik = <ore:stickWood>;
+val emer = <minecraft:emerald>;
 recipes.remove(<roots:druidKnife>);
-recipes.addShaped(<roots:druidKnife>, [[null, null, emer], [null, emer, null], [stik, null, null]]);
+mods.botania.ManaInfusion.addInfusion(<roots:druidKnife>, emer, 150000);
 
 val ston = <environmentaltech:hardened_stone>;
 recipes.remove(<roots:mortar>);
