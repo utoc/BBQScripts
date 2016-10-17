@@ -65,7 +65,7 @@ recipes.remove(<extrautils2:Machine:*>);
 
 recipes.addShapeless(<extrautils2:SoundMuffler>, [<mekanism:MufflingUpgrade>]);
 
-mods.jei.JEI.hide(<extrautils2:Drum:*>);
+#mods.jei.JEI.hide(<extrautils2:Drum:*>);
 
 #ChunkLoader
 recipes.remove(<extrautils2:ChunkLoader>);

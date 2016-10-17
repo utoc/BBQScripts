@@ -26,3 +26,5 @@ recipes.addShaped(<pressure:FluidInterface> * 8, [[null, stel, null],[stel, cact
 
 recipes.remove(<pressure:TankWall>);
 recipes.addShaped(<pressure:TankWall> * 16, [[stel, stel, stel],[stel, cact, stel],[stel, stel, stel]]);
+
+#mods.jei.JEI.hide(<pressure:Canister>);

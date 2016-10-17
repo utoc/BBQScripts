@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 #Vanilla
 var odye = <ore:dye>;
 var cobb = <minecraft:cobblestone>;
@@ -102,6 +104,8 @@ var ust1 = <actuallyadditions:itemDrillUpgradeSilkTouch>;
 var umi1 = <actuallyadditions:itemDrillUpgradeThreeByThree>;
 var umi2 = <actuallyadditions:itemDrillUpgradeFiveByFive>;
 
+val eeno = <actuallyadditions:itemCrystalEmpowered:5>;
+
 #Books
 
 var f1bk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 1 as short, id: 35 as short}]});
@@ -113,12 +117,7 @@ var stbk = <minecraft:golden_pickaxe>.onlyWithTag({ench: [{lvl: 1 as short, id: 
 var m3bk = <mekanism:AtomicDisassembler>;
 var m5bk = <techreborn:diamondjackhammer>;
 
-# hide doesnt work :X
-#import mods.jei.JEI;
-#mods.jei.JEI.hide(<actuallyadditions:itemPotionRing:*>);
-#mods.jei.JEI.hide(<actuallyadditions:itemPotionRingAdvanced:*>);
 odye.add(dyeb);
-
 
 #Recipe Removal
 	recipes.remove(<actuallyadditions:itemSpawnerChanger>);
@@ -171,6 +170,10 @@ odye.add(dyeb);
 		recipes.remove(<actuallyadditions:blockOilGenerator>);
 		recipes.addShaped(<actuallyadditions:blockOilGenerator>, [[cobb, casi, cobb], [cano, lgen, cano], [cobb, casi, cobb]]);
 
+		#BIO Reactor
+		recipes.remove(<actuallyadditions:blockBioReactor>);
+		recipes.addShaped(<actuallyadditions:blockBioReactor>, [[eeno, casi, eeno],[eeno, lgen, eeno],[eeno, casi, eeno]]);
+		
 	#RINGS
 		#BASIC
 		recipes.remove(ring);
@@ -195,3 +198,117 @@ odye.add(dyeb);
 	recipes.addShaped(umi1, [[enor, null, enor], [null, m3bk, null], [enor, null, enor]]);
 	recipes.addShaped(umi2, [[enor, null, enor], [null, m5bk, null], [enor, null, enor]]);
 	recipes.addShaped(core, [[acoi, chip, acoi], [diam, cont, diam], [acoi, chip, acoi]]);
+	
+	
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:0>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:1>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:2>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:4>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:5>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:6>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:7>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:8>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:9>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:10>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:11>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:12>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:13>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:14>);
+mods.jei.JEI.hide(<actuallyadditions:itemDrill:15>);
+mods.jei.JEI.hide(<actuallyadditions:itemPotionRing:*>);
+mods.jei.JEI.hide(<actuallyadditions:itemPotionRingAdvanced:*>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmQuartz>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmEmerald>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmObsidian>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmCrystalWhite>);
+mods.jei.JEI.hide(<actuallyadditions:itemPickaxeCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemAxeCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemSwordCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemShovelCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemHoeCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemBootsCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemPantsCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemChestCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemHelmCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:woodenPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:stonePaxel>);
+mods.jei.JEI.hide(<actuallyadditions:ironPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:goldPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:diamondPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:emeraldPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:obsidianPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:quartzPaxel>);
+mods.jei.JEI.hide(<actuallyadditions:itemPaxelCrystalRed>);
+mods.jei.JEI.hide(<actuallyadditions:itemPaxelCrystalBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemPaxelCrystalLightBlue>);
+mods.jei.JEI.hide(<actuallyadditions:itemPaxelCrystalBlack>);
+mods.jei.JEI.hide(<actuallyadditions:itemPaxelCrystalGreen>);
+mods.jei.JEI.hide(<actuallyadditions:itemPaxelCrystalWhite>);
