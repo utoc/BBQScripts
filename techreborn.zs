@@ -141,6 +141,11 @@ mods.jei.JEI.hide(<techreborn:plates:15>);
 	mods.techreborn.implosionCompressor.addRecipe(tgplate, <techreborn:dust:15> *4, <techreborn:ingot:15>, <minecraft:tnt> *4, 20, 30);
 	mods.techreborn.implosionCompressor.addRecipe(stplate, <techreborn:dust:15> *4, stee, <minecraft:tnt> *4, 20, 30);
 	
+	val cupr = <techreborn:part:13>;
+	recipes.remove(<techreborn:blastFurnace>);
+	recipes.addShaped(<techreborn:blastFurnace>, [[<ore:circuitAdvanced>, cupr, <ore:circuitAdvanced>], [cupr, <techreborn:techreborn.machineFrame:1>, cupr], [<techreborn:techreborn.electricfurnace:*>, cupr, <techreborn:techreborn.electricfurnace:*>]]);
+
+	
 recipes.remove(<techreborn:bronzeSpade>);
 recipes.remove(<techreborn:bronzePickaxe>);
 recipes.remove(<techreborn:bronzeAxe>);
