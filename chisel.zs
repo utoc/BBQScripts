@@ -1,6 +1,6 @@
 val cbst = <chisel:basaltextra:7>;
 val bslt = <ore:stoneBasalt>;
-bslt.add(cbst)
+bslt.add(cbst);
 
 val wbkt = <minecraft:water_bucket>.transformReplace(<minecraft:bucket>);
 val clay = <minecraft:clay>;
