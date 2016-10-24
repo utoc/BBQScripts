@@ -1,6 +1,6 @@
 val emer = <minecraft:emerald>;
 recipes.remove(<roots:druidKnife>);
-mods.botania.ManaInfusion.addInfusion(<roots:druidKnife>, emer, 150000);
+mods.botania.ManaInfusion.addInfusion(<roots:druidKnife>, emer, 99999);
 
 val ston = <environmentaltech:hardened_stone>;
 recipes.remove(<roots:mortar>);
