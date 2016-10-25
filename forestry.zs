@@ -2,7 +2,7 @@ val cche = <ironchest:BlockIronChest:3>;
 val gold = <ore:ingotGold>;
 val glas = <ore:blockGlass>;
 var casi = <forestry:sturdyMachine>;
-var bpla = <techreborn:plates:18>;
+var bpla = <ore:plateBronze>;
 var bron = <forestry:resourceStorage:3>;
 
 recipes.remove(<forestry:ingotBronze>);

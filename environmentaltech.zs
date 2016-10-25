@@ -14,7 +14,7 @@ val lapi = <minecraft:dye:4>;
 val quar = <minecraft:quartz>;
 val quab = <minecraft:quartz_block>;
 val carb = <techreborn:part:34>;
-val stee = <techreborn:plates:28>;
+val stee = <ore:plateSteel>;
 
 recipes.remove(asse);
 #recipes.remove(cell);
