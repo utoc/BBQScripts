@@ -106,3 +106,22 @@ recipes.addShaped(<extrautils2:PassiveGenerator:4>, [[wind, coil, wind], [burn, 
 recipes.addShaped(<extrautils2:PassiveGenerator:7>, [[base, acoi, base], [acoi, coil, acoi], [base, acoi, base]]);
 #dragon egg
 recipes.addShaped(<extrautils2:PassiveGenerator:8>, [[null, null, null], [egge, null, egge], [burn, burn, burn]]);
+
+recipes.remove(<extrautils2:spike_stone>);
+mods.jei.JEI.hide(<extrautils2:spike_stone>);
+recipes.remove(<extrautils2:spike_wood>);
+recipes.remove(<extrautils2:spike_iron>);
+recipes.remove(<extrautils2:spike_gold>);
+recipes.remove(<extrautils2:spike_diamond>);
+val eiro = <actuallyadditions:blockCrystalEmpowered:5>;
+val mwoo = <extrautils2:DecorativeSolidWood:1>;
+val bbri = <bloodmagic:BlockBloodStoneBrick:1>;
+val swow = <minecraft:wooden_sword>;
+val swoi = <minecraft:iron_sword>;
+val swog = <minecraft:golden_sword>;
+val swod = <minecraft:diamond_sword>;
+val dsto = <extrautils2:DecorativeSolid:3>;
+recipes.addShaped(<extrautils2:spike_wood>, [[null, swow, null],[swow, mwoo, swow],[mwoo, mwoo, mwoo]]);
+recipes.addShaped(<extrautils2:spike_iron>, [[null, swoi, null],[swoi, <extrautils2:spike_wood>, swoi],[eiro, eiro, eiro]]);
+recipes.addShaped(<extrautils2:spike_gold>, [[null, swog, null],[swog, <extrautils2:spike_iron>, swog],[bbri, bbri, bbri]]);
+recipes.addShaped(<extrautils2:spike_diamond>, [[null, swod, null],[swod, <extrautils2:spike_gold>, swod],[dsto, dsto, dsto]]);

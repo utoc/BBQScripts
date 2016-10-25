@@ -7,6 +7,10 @@ val upip = <mekanism:MultipartTransmitter:7>;
 val case = <actuallyadditions:blockMisc:8>;
 val glas = <ore:paneGlass>;
 val reds = <ore:dustRedstone>;
+val pump = <mekanism:MachineBlock:12>;
+val pist = <ore:craftingPiston>;
+recipes.remove(<pressure:pump>);
+recipes.addShaped(<pressure:pump>, [[stel, cact, stel],[pist, pump, pist],[stel, cact, stel]]);
 
 recipes.remove(<pressure:pipe>);
 recipes.addShaped(<pressure:pipe> * 6, [[stel, stel, stel],[cact, null, cact],[stel, stel, stel]]);
