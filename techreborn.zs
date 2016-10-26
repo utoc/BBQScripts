@@ -88,6 +88,9 @@ recipes.addShaped(<techreborn:techreborn.machineFrame>, [[riplate, riplate, ripl
 recipes.remove(<techreborn:lapotroncrystal>);
 recipes.addShaped(<techreborn:lapotroncrystal:0>, [[laplate, cona, laplate], [laplate, <techreborn:energycrystal:0>, laplate], [laplate, cona, laplate]]);
 
+recipes.remove(<techreborn:part:35>);
+recipes.addShapeless(<techreborn:part:35>, [coad, coad, coad, coad]);
+
 #Circuits
 recipes.remove(conb);
 recipes.remove(cona);
