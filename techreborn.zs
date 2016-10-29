@@ -155,13 +155,13 @@ recipes.remove(<techreborn:ingot:21>);
 val inic = <ore:ingotNickel>;
 val refi = <ore:ingotRefinedIron>;
 val iinv = <ore:ingotInvar>;
-recipes.addShaped(<techreborn:ingot:21> * 3, [[refi, refi, refi], [bron, bron, bron], [tin, tin, tin]]);
+recipes.addShaped(<techreborn:ingot:21> * 2, [[refi, refi, refi], [bron, bron, bron], [tin, tin, tin]]);
 recipes.addShaped(<techreborn:ingot:21> * 4, [[refi, refi, refi], [bron, bron, bron], [zinc, zinc, zinc]]);
 recipes.addShaped(<techreborn:ingot:21> * 5, [[refi, refi, refi], [bron, bron, bron], [alum, alum, alum]]);
-recipes.addShaped(<techreborn:ingot:21> * 4, [[inic, inic, inic], [bron, bron, bron], [tin, tin, tin]]);
+recipes.addShaped(<techreborn:ingot:21> * 3, [[inic, inic, inic], [bron, bron, bron], [tin, tin, tin]]);
 recipes.addShaped(<techreborn:ingot:21> * 5, [[inic, inic, inic], [bron, bron, bron], [zinc, zinc, zinc]]);
 recipes.addShaped(<techreborn:ingot:21> * 6, [[inic, inic, inic], [bron, bron, bron], [alum, alum, alum]]);
-recipes.addShaped(<techreborn:ingot:21> * 4, [[iinv, iinv, iinv], [bron, bron, bron], [tin, tin, tin]]);
+recipes.addShaped(<techreborn:ingot:21> * 3, [[iinv, iinv, iinv], [bron, bron, bron], [tin, tin, tin]]);
 recipes.addShaped(<techreborn:ingot:21> * 5, [[iinv, iinv, iinv], [bron, bron, bron], [zinc, zinc, zinc]]);
 recipes.addShaped(<techreborn:ingot:21> * 6, [[iinv, iinv, iinv], [bron, bron, bron], [alum, alum, alum]]);
 
