@@ -151,6 +151,19 @@ mods.tconstruct.Casting.addTableRecipe(<techreborn:plates:29>, <liquid:tin> * 28
 mods.tconstruct.Casting.addTableRecipe(<techreborn:plates:27>, <liquid:silver> * 288, cplt, false);
 mods.tconstruct.Casting.addTableRecipe(<techreborn:plates:21>, <liquid:electrum> * 288, cplt, false);
 
+recipes.remove(<techreborn:ingot:21>);
+val inic = <ore:ingotNickel>;
+val refi = <ore:ingotRefinedIron>;
+val iinv = <ore:ingotInvar>;
+recipes.addShaped(<techreborn:ingot:21>, [[refi, refi, refi], [bron, bron, bron], [tin, tin, tin]]);
+recipes.addShaped(<techreborn:ingot:21>, [[refi, refi, refi], [bron, bron, bron], [zinc, zinc, zinc]]);
+recipes.addShaped(<techreborn:ingot:21>, [[refi, refi, refi], [bron, bron, bron], [alum, alum, alum]]);
+recipes.addShaped(<techreborn:ingot:21>, [[inic, inic, inic], [bron, bron, bron], [tin, tin, tin]]);
+recipes.addShaped(<techreborn:ingot:21>, [[inic, inic, inic], [bron, bron, bron], [zinc, zinc, zinc]]);
+recipes.addShaped(<techreborn:ingot:21>, [[inic, inic, inic], [bron, bron, bron], [alum, alum, alum]]);
+recipes.addShaped(<techreborn:ingot:21>, [[iinv, iinv, iinv], [bron, bron, bron], [tin, tin, tin]]);
+recipes.addShaped(<techreborn:ingot:21>, [[iinv, iinv, iinv], [bron, bron, bron], [zinc, zinc, zinc]]);
+recipes.addShaped(<techreborn:ingot:21>, [[iinv, iinv, iinv], [bron, bron, bron], [alum, alum, alum]]);
 
 val cupr = <techreborn:part:13>;
 recipes.remove(<techreborn:blastFurnace>);
