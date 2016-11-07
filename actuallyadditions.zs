@@ -90,6 +90,8 @@ val magn = <actuallyadditions:itemSuctionRing>;
 recipes.addShaped(<actuallyadditions:itemBag>, [[leat, stri, leat], [leat, magn, leat], [leat, leat, leat]]);
 recipes.addShaped(<actuallyadditions:itemVoidBag>, [[leat, stri, leat], [leat, magn, leat], [leat, nul1, leat]]);
 
+recipes.remove(<actuallyadditions:itemMoreDamageLens>)
+recipes.addShapeless(<actuallyadditions:itemMoreDamageLens>, [<psi:psimetalSword:*>, <ore:ingotCorrupted>, <actuallyadditions:itemDamageLens>, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]})]);
 
 #Items
 var dril = <actuallyadditions:itemDrill:3>;
