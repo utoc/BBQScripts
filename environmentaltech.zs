@@ -27,3 +27,7 @@ recipes.addShaped(cele, [[glas, glas, glas], [stee, celi, stee], [reds, iron, re
 
 recipes.remove(<environmentaltech:photovoltaic_cell>);
 recipes.addShaped(<environmentaltech:photovoltaic_cell>, [[carb, lapi, carb], [lapi, quar, lapi], [null, lapi, null]]);
+
+recipes.remove(<environmentaltech:controller_nano_bot_beacon_1)
+recipes.addShaped(<environmentaltech:controller_nano_bot_beacon_1>, [[<minecraft:gold_block>, <minecraft:dragon_breath>, <minecraft:gold_block>], [<minecraft:gold_block>, <environmentaltech:modifier_core>, <minecraft:gold_block>], [<botania:brewery>, <minecraft:beacon>, <bloodmagic:BlockRitualStone>]]);
+
